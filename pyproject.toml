@@ -22,11 +22,11 @@ classifiers = [
 dependencies = ["alfred-results"]
 
 [project.urls]
-homepage = "https://github.com/joshbduncan/alfred-color-generator"
-documentation = "https://github.com/joshbduncan/alfred-color-generator/wiki"
-repository = "https://github.com/joshbduncan/alfred-color-generator.git"
-changelog = "https://github.com/joshbduncan/word-search-generator/blob/main/CHANGELOG.md"
-bug-tracker = "https://github.com/joshbduncan/alfred-color-generator/issues"
+homepage = "https://github.com/joshbduncan/alfred-color-picker"
+documentation = "https://github.com/joshbduncan/alfred-color-picker/wiki"
+repository = "https://github.com/joshbduncan/alfred-color-picker.git"
+changelog = "https://github.com/joshbduncan/alfred-color-picker/blob/main/CHANGELOG.md"
+bug-tracker = "https://github.com/joshbduncan/alfred-color-picker/issues"
 
 [tool.uv.sources]
 alfred-results = { path = "../alfred-results", editable = true }
