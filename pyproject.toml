@@ -1,0 +1,37 @@
+[project]
+name = "alfred-color-picker"
+version = "1.0.0"
+authors = [{ name = "Josh Duncan", email = "joshbduncan@gmail.com" }]
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["utility", "alfred"]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Typing :: Typed",
+]
+dependencies = ["alfred-results"]
+
+[project.urls]
+homepage = "https://github.com/joshbduncan/alfred-color-generator"
+documentation = "https://github.com/joshbduncan/alfred-color-generator/wiki"
+repository = "https://github.com/joshbduncan/alfred-color-generator.git"
+changelog = "https://github.com/joshbduncan/word-search-generator/blob/main/CHANGELOG.md"
+bug-tracker = "https://github.com/joshbduncan/alfred-color-generator/issues"
+
+[tool.uv.sources]
+alfred-results = { path = "../alfred-results", editable = true }
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+]
