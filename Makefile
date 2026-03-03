@@ -12,7 +12,7 @@ cleanup: ## remove all __pycache__ directories from src/
 	@find src -type d -name __pycache__ -exec rm -rf {} +
 
 copy: ## copy alfred-results package into src/
-	cp -Rf $(CURDIR)/../alfred-results/src/alfred_results src/alfred_results
+	cp -Rf $(CURDIR)/../alfred-results/src/alfred_results src
 
 ##@ Quality
 format: ## format python files using ruff

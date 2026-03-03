@@ -1,20 +1,20 @@
 [project]
 name = "alfred-color-picker"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{ name = "Josh Duncan", email = "joshbduncan@gmail.com" }]
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-keywords = ["utility", "alfred"]
+keywords = ["alfred", "workflow", "automation", "macos"]
 license = "MIT"
 classifiers = [
+    "Environment :: MacOS X",
     "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Operating System :: MacOS",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3",
     "Programming Language :: Python",
     "Topic :: Games/Entertainment :: Puzzle Games",
     "Typing :: Typed",
@@ -22,18 +22,14 @@ classifiers = [
 dependencies = ["alfred-results"]
 
 [project.urls]
-homepage = "https://github.com/joshbduncan/alfred-color-picker"
-documentation = "https://github.com/joshbduncan/alfred-color-picker/wiki"
-repository = "https://github.com/joshbduncan/alfred-color-picker.git"
-changelog = "https://github.com/joshbduncan/alfred-color-picker/blob/main/CHANGELOG.md"
-bug-tracker = "https://github.com/joshbduncan/alfred-color-picker/issues"
+Homepage = "https://github.com/joshbduncan/alfred-color-picker"
+Documentation = "https://github.com/joshbduncan/alfred-color-picker/wiki"
+Repository = "https://github.com/joshbduncan/alfred-color-picker.git"
+Changelog = "https://github.com/joshbduncan/alfred-color-picker/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/joshbduncan/alfred-color-picker/issues"
 
 [tool.uv.sources]
 alfred-results = { path = "../alfred-results", editable = true }
 
 [dependency-groups]
-dev = [
-    "pre-commit>=4.5.1",
-    "ruff>=0.15.4",
-    "ty>=0.0.20",
-]
+dev = ["pre-commit>=4.5.1", "ruff>=0.15.4", "ty>=0.0.20"]

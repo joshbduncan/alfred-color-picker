@@ -14,9 +14,19 @@ repos:
           - id: "ruff-format"
     - repo: "local"
       hooks:
+          - id: "copy"
+            name: "vendor alfred-results"
+            entry: "make copy"
+            language: "system"
+            always_run: true
+          - id: "cleanup"
+            name: "clean up __pycache__"
+            entry: "make cleanup"
+            language: "system"
+            always_run: true
           - id: "ty"
             name: "ty check"
-            entry: "ty check src/*.py"
+            entry: "ty check"
+            files: "^src/.*\\.py$"
             language: "system"
-            pass_filenames: true
             always_run: true
