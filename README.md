@@ -2,6 +2,8 @@
 
 Quickly browse, convert, and generate color palettes directly from Alfred.  
 
+![screenshot.png](screenshot.png)
+
 ## Features
 
 - Brand Colors  
@@ -9,6 +11,7 @@ Quickly browse, convert, and generate color palettes directly from Alfred.
 - Complementary Colors Palette  
 - Color Shades Palette   
 - Color Conversion  
+- Clipboard Manager Universal Actions 
 
 ## Usage
 
@@ -20,7 +23,8 @@ Pick one of the Color Picker menu options:
 - `Analogous Colors <hex>` - Generate a 5-color analogous palette from a HEX input.  
 - `Complementary Colors <hex>` - Generate a 5-color complementary palette from a HEX input.  
 - `Color Shades <hex>` - Generate a range of lightness shades from a HEX input.   
-- `Convert Color <hex>` - Convert a HEX color to HEX, RGB, rgb(), HSL, and hsl() formats, ready to copy. 
+- `Convert Color <hex>` - Convert a HEX color to HEX, RGB, rgb(), HSL, and hsl() formats, ready to copy.
+- **Universal Actions** — Select any color from the Alfred Clipboard Manager and launch it directly into Analogous Colors, Complementary Colors, Color Shades, or Convert Color — no typing required.
 
 
 ## Notes

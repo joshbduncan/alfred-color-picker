@@ -34,4 +34,6 @@ alfred-results = { path = "../alfred-results", editable = true }
 [dependency-groups]
 dev = [
     "pre-commit>=4.5.1",
+    "ruff>=0.15.4",
+    "ty>=0.0.20",
 ]

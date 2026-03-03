@@ -1275,6 +1275,7 @@ Pick one of the Color Picker menu options:
 - `Complementary Colors &lt;hex&gt;` - Generate a 5-color complementary palette from a HEX input.  
 - `Color Shades &lt;hex&gt;` - Generate a range of lightness shades from a HEX input.   
 - `Convert Color &lt;hex&gt;` - Convert a HEX color to HEX, RGB, rgb(), HSL, and hsl() formats, ready to copy. 
+- **Universal Actions** — Select any color from the Alfred Clipboard Manager and launch it directly into Analogous Colors, Complementary Colors, Color Shades, or Convert Color — no typing required.
 
 
 ## Notes
