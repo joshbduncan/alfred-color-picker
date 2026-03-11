@@ -466,7 +466,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Analogous Colors...</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
@@ -614,7 +614,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Complementary Colors...</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
@@ -796,49 +796,38 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
 				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Brand Colors...","arg":"brand","subtitle":"Select from a palette of your brand colors."},{"title":"Analogous Colors...","arg":"analogous","subtitle":"Select from a palette of analogous colors."},{"title":"Complementary Colors...","arg":"complementary","subtitle":"Select from a palette of complementary colors."},{"title":"Color Shades...","arg":"shades","subtitle":"Select from a palette of complimentary color shades."},{"title":"Convert Color...","arg":"convert","subtitle":"Convert your color to different modes."}]</string>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>matchmode</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
-				<key>script</key>
-				<string>./main.py --brand</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Interact with Color Picker</string>
 				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
+				<string>Color Picker</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>colorPicker</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>992DCE47-DA95-4B30-93CC-3EB08B22EB67</string>
+			<string>E2CF66E5-C8A7-4C4F-853E-37959F395C62</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -874,38 +863,49 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Brand Colors...","arg":"brand","subtitle":"Select from a palette of your brand colors."},{"title":"Analogous Colors...","arg":"analogous","subtitle":"Select from a palette of analogous colors."},{"title":"Complementary Colors...","arg":"complementary","subtitle":"Select from a palette of complementary colors."},{"title":"Color Shades...","arg":"shades","subtitle":"Select from a palette of complimentary color shades."},{"title":"Convert Color...","arg":"convert","subtitle":"Convert your color to different modes."}]</string>
-				<key>keyword</key>
-				<string>{var:keyword}</string>
-				<key>matchmode</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
 				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string></string>
+				<key>script</key>
+				<string>./main.py --brand</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Interact with Color Picker</string>
+				<string></string>
 				<key>title</key>
-				<string>Color Picker</string>
+				<string>Brand Colors...</string>
+				<key>type</key>
+				<integer>11</integer>
 				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>colorPicker</string>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>E2CF66E5-C8A7-4C4F-853E-37959F395C62</string>
+			<string>992DCE47-DA95-4B30-93CC-3EB08B22EB67</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1068,7 +1068,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Color Shades...</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
@@ -1195,7 +1195,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Convert Color...</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
